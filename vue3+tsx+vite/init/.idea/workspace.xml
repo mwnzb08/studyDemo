@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6912b0d6-e833-46a4-932e-2bed3add6a02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/assets/css/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/shims-vue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/store/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/PageLoading.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/home/components/echart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/home/components/tables.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/home/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1uikcfI9YqdXOwv1aLwBYp8lNmK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ts.external.directory.path" value="D:\Demo\studyDemo\vue3+tsx+vite\init\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6912b0d6-e833-46a4-932e-2bed3add6a02" name="Default Changelist" comment="" />
+      <created>1625155880387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625155880387</updated>
+      <workItem from="1625155883695" duration="177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
