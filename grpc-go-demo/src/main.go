@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"google.golang.org/grpc"
 	"grpc/protoc"
-	"log"
 	"net"
+	"strings"
 	"time"
 )
 
@@ -33,6 +33,12 @@ func main() {
 }
 // 注意继承方法的大小写SayHello No sayHello
 func (s *server) SayHello(ctx context.Context, in *protoc.HelloRequest) (*protoc.HelloReply, error)  {
-	log.Printf("receive : %v", in.Name)
+	mapp := make(map[string]interface{},0)
+	request := strings.Fields(in.String())
+	for _, ss := range request {
+		dd := strings.Split(ss,":")
+		mapp[dd[0]] = dd[1]
+	}
+	fmt.Println(mapp)
 	return &protoc.HelloReply{Message: "hello," + in.Name}, nil
 }

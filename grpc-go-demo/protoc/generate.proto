@@ -11,9 +11,13 @@ service Greeter {
 }
 
 message HelloRequest{
-  string name = 2;
+  string name = 1;
+  string key = 2;
+  string value = 3;
+  int32 num = 5;
 }
 
 message HelloReply {
-  string message = 2;
+  string message = 1;
+  string message2 = 2;
 }

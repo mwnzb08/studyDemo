@@ -25,7 +25,7 @@ func main() {
 	if len(os.Args) > 1 {
 		name = os.Args[1]
 	}
-	r, err := c.SayHello(context.Background(), &protoc.HelloRequest{Name: name})
+	r, err := c.SayHello(context.Background(), &protoc.HelloRequest{Name: name, Value: "ss", Key: "saa", Num: 3})
 	if err != nil {
 		log.Fatal("could not greet: %v", err)
 	}
