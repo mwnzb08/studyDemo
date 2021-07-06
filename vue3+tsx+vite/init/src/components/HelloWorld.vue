@@ -28,6 +28,8 @@
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
+  <input type="file" ref="filesRef">
+  <button @click="exportFile()">sss</button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -35,7 +37,7 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from 'vue'
+import { ref, defineComponent, Ref, getCurrentInstance } from 'vue'
 export default defineComponent({
   name: 'HelloWorld',
   props: {
@@ -45,8 +47,19 @@ export default defineComponent({
     }
   },
   setup: () => {
+    const { proxy } = getCurrentInstance()
     const count = ref(0)
-    return { count }
+    const filesRef:Ref<HTMLInputElement | null> = ref(null)
+    function exportFile () {
+      const file = (filesRef.value as HTMLInputElement).files
+      var form = new FormData()
+      if (file) {
+        form.append("file", file[0])
+      }
+      form.append("code", "L3")
+      proxy.$https.post("getData", form, {headers: {'Content-Type': 'multipart/form-data'}}).then()
+    }
+    return { count, filesRef, exportFile }
   }
 })
 </script>

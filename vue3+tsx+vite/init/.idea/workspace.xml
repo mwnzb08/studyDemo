@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6912b0d6-e833-46a4-932e-2bed3add6a02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/assets/css/global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/shims-vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/PageLoading.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/home/components/echart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/home/components/tables.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/src/views/home/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vue3/vue_ts_demo/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../grpc-go-demo/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../grpc-go-demo/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../grpc-go-demo/src2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../grpc-go-demo/src2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\Demo\studyDemo\vue3+tsx+vite\init\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625155880387</updated>
       <workItem from="1625155883695" duration="177000" />
+      <workItem from="1625581351105" duration="3431000" />
     </task>
     <servers />
   </component>
