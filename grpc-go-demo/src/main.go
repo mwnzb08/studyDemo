@@ -13,6 +13,7 @@ import (
 type server struct {}
 //
 func main() {
+
 	lis, err := net.Listen("tcp", ":9000")
 	if err != nil {
 		fmt.Println(err)
@@ -27,9 +28,15 @@ func main() {
 	ticker := time.NewTicker(time.Second * 1)
 	for t:=range ticker.C{
 		fmt.Println(t)
-		
+
 	}
 
+}
+
+type Aaa struct {
+	Aa string
+	Ab string
+	Ac string
 }
 
 // 注意继承方法的大小写SayHello No sayHello
@@ -44,5 +51,5 @@ func (s *server) SayHello(ctx context.Context, in *protoc.HelloRequest) (*protoc
 	//	mapp[dd[0]] = dd[1]
 	//}
 	//fmt.Println(mapp)
-	return &protoc.HelloReply{Message: "hello," + in.Name}, nil
+	return &protoc.HelloReply{}, nil
 }
