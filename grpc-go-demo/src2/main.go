@@ -33,6 +33,7 @@ func main() {
 	if err != nil {
 		log.Fatal("could not greet: %v", err)
 	}
+	fmt.Println(r.Items)
 	fmt.Println( r.Message)
 	fmt.Println( r.String())
 }

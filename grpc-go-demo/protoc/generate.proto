@@ -2,6 +2,7 @@
 
 
 syntax = "proto3";
+import 'google/protobuf/struct.proto';
 
 option go_package = "./protoc";
 package protoc;
@@ -20,4 +21,5 @@ message HelloRequest{
 message HelloReply {
   string message = 1;
   string message2 = 2;
+  google.protobuf.Struct items = 3;
 }
